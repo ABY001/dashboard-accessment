@@ -10,6 +10,9 @@
     "e2e": "ng e2e",
     "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start"
   },
+  "engines": {
+    "npm": "9.7.2"
+  },  
   "private": true,
   "dependencies": {
     "@angular/animations": "^14.2.0",
