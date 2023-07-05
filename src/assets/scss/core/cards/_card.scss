@@ -1,0 +1,20 @@
+//
+// Card
+//
+
+
+.card-translucent {
+    background-color: rgba(18, 91, 152, 0.08);
+}
+
+.card {
+    border-radius: 1rem;
+}
+
+.card.stat {
+    background-color: #950e7e !important;
+}
+
+.card-body.stat {
+    padding: 2rem .5rem .5rem !important;
+}
