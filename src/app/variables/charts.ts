@@ -297,7 +297,7 @@ export const chartExample1 = {
         ticks: {
           callback: function(value) {
             if (!(value % 25)) {
-              return '$' + value + 'k';
+              return value;
             }
           }
         }
